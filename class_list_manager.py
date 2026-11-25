@@ -25,7 +25,13 @@ def to_upper(names):
     for name in names:
         upper_names.append(name.upper())
     return upper_names
-
+# Written by: Jood Aljadher
+def remove_duplicates(names):
+    unique_names = []
+    for name in names:
+        if name not in unique_names:
+            unique_names.append(name)
+    return unique_names
 def main():
  print("Welcome to the Class List Manager!")
  print("Class list:", names)
@@ -35,5 +41,5 @@ def main():
  print("Number of names:", count_names(names))
  print("Search for Sadeem:", search_name(names, "Sadeem"))
  print("Uppercase names:", to_upper(names))
-
+ print("Names without duplicates:", remove_duplicates(names))
 main()
