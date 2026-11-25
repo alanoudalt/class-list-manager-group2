@@ -1,4 +1,13 @@
-# class-list-manager-group2
-A python program that manages a class list using lists and strings
+# Class List Manager - Group 2
+
+A Python program that manages a class list using lists and strings.
+
 ## Team Members
-- Rand Almuhaythif
+
+| Student Name | Function |
+|--------------|----------|
+| Alanoud Altammami | count_names |
+| Sadeem Alotaibi | search_name |
+| Rand Almuhaythif | sort_names |
+| Rana Almutairi | to_upper |
+| Jood Aljadher | remove_duplicates |
